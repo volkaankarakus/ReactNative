@@ -1,0 +1,32 @@
+D:
+mkdir reactnativeProjects ( proje olusturma )
+cd reactnativeProjects 
+react-native init cars (proje ismi cars olan proje baslatma)
+
+Daha sonra android studio'yu acip, open folder ile D:reactnativeProjects -> cars -> android'e basip dosyayi aciyoruz..
+
+daha sonra android studioda simulasyonu acip daha sonra cmd'de : D:\reactProjects\cars>react-native run-android
+
+
+Simulatoru yenilemek icin r tusu
+Simulatorde menu icin ctrl + m 
+
+------------------------------------------------------------------------------------
+EXPO
+npm install -g expo-cli (bilgisayara indirme)
+C'de bir klasor olustur daha sonra -> npx expo-cli init cars  (bunu dedikten sonra karsimiza cikan sorulara enter'a basip geciyoruz)
+
+"cd cars" ile proje klasorumuze giriyoruz
+"npm start" yapiyoruz
+"npm start" komutunu çalıştırdığımız anda browserımızda "metro bundler" dediğimiz bir pencere açılacak.
+Bu aşamada kendi şahsi telefonunuzda "google play store" ya da "app store" dan 
+	"expo" isimli uygulamayı indirin.
+Telefonunuz ile bilgisayarınızın ayni internet ağını kullandığından emin olun.
+Daha sonra "expo" uygulamasını telefonunuzdan açın ve 
+	daha önce browser da açılan "metro bundler" daki kare kodu telefonunuza taratın. 
+	Bu işlem için telefonunuzun kamerasını kullanabilirsiniz, kare kodu taramak için başka bir uygulamaya ihtiyacınız yok.
+Bu işlemden sonra uygulama telefonunuzda açılacaktır. 
+	Eğer bir sorun olursa ilk olarak metro bundler üzerinde kare kodun hemen üstünde bulunan
+	 connection sekmesinden "LAN" yerine "TUNNEL" seçeneğini tıklayıp yeni bir kare kod oluşturup 
+	bu kare kodu telefonunuzla tarayıp uygulamayı açmayı deneyebilirsiniz.
+Uygulama telefonunuzda açıldıktan sonra devam edebiliriz.

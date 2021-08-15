@@ -1,0 +1,4 @@
+expo login
+expo init test
+cd test
+npm start
